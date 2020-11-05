@@ -1,0 +1,52 @@
+.banner__container {
+    position: relative;
+}
+
+.main__banner {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, .9) 0%, rgba(14, 14, 153, .6) 50%, rgba(8, 25, 131, .6) 40%, rgb(133, 147, 150) 100%);
+}
+
+.banner__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.banner__info {
+    position: relative;
+    text-emphasis: center;
+    color: white;
+    font-weight: 800;
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+.banner__info h1{
+    font-size: 60px;
+}
+
+.banner__title {
+    color: white;
+    font-size: 24px;
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+
+.social__links .MuiSvgIcon-root {
+    color: lightgrey;
+    cursor: pointer;
+    font-size: 40px;
+    margin: 4px;
+    opacity: .9;
+}
+
+.social__links .MuiSvgIcon-root:hover {
+    opacity: 1;
+}
